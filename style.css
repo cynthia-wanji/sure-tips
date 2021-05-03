@@ -1,0 +1,583 @@
+body{
+    margin-left:300px;
+    width:50%;
+   align-content:center;
+    font-family:arial;
+}
+@media only screen and (min-width: 992px) {
+    body {width:50%; align-content:center;}
+  }
+  @media only screen and (max-width: 600px) {
+    body {margin-left:0px; margin-right:0px;width:100%;}
+  }
+.top{position: absolute;
+   width:50%;
+    height: 120px;
+    align-items:center;
+    top:0px;
+     background-color: #FCF42C;
+
+}
+.button{
+    position: absolute;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+left:540px;
+top:-50px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.05em;
+color:yellow; 
+padding:10px 30px 10px 30px;
+background-color: green;
+border-radius:15px;
+
+
+}
+img{
+    position: absolute;
+    align-items:center;
+    width: 50px;
+    height: 50px;
+    left: 17px;
+    top: 10px;
+    
+    background-image: url(images/logo.png);
+
+}
+.img{
+    position: absolute;
+    align-items:center;
+    width:100px;
+    height:100px;
+    left: 17px;
+    top: 10px;
+    
+    background-image: url(images/logo.png);
+
+}
+.toptxt{
+    position: absolute;
+width:50%;
+height: 34px;
+top:50px;
+font-size: 2vh;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.05em;
+display:inline-block;
+word-spacing:80px;
+color: #1E1E1E;
+
+}
+@media only screen and (max-width: 992px) {
+  .toptxt {font-size:10px;}
+  }
+.sunday{
+    position: absolute;
+font-style: normal;
+font-weight:bold;
+font-size: 16px;
+margin-left:40px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+}
+.monday{position: absolute;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 16px;
+    margin-left:120px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #000000;}
+    .tuesday{
+        position: absolute;
+width: 61px;
+height: 23px;
+font-style: normal;
+font-weight: bold;
+margin-left:210px;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+    }
+    .wednesday{
+        position: absolute;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+left:290px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+    }
+    .thursday{
+        position: absolute;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+left:400px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+    }
+    .friday{
+        position: absolute;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+left:500px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #000000;
+    }
+    .saturday{
+        position: absolute;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        left:580px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        
+        color: #000000;
+    }
+.body{
+    position: absolute;
+width:50%;
+height: 2000px;
+top: 120px;
+
+background-color: #141414;
+}
+.homebody{
+    position: absolute;
+    width:50%;
+    height: 490px;
+    top: 120px;
+    
+    background-color: #141414;
+}
+.first{
+    position: absolute;
+    height: 53px;
+    left: 30px;
+    
+    color: #FFFFFF;
+
+}
+.league{
+    position: absolute;
+    
+height: 40px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+
+
+}
+    .first1{
+        position: absolute;
+        height:53px;
+       left:450px;
+    
+        
+        color:#FFFFFF;
+    
+}
+.branch{
+    position: absolute;
+width: 100%;
+height: 200px;
+top: 60px;
+
+background-color: #2D2D2D;
+}
+hr{
+    position: absolute;
+    width: 100%;
+    top:60px;
+    border: 0.8px solid #000000;
+    
+}
+.one{
+    color:white;
+    position: absolute;
+width: 50%;
+height: 47px;
+    
+}
+.one1{
+    position: absolute;
+width: 50px;
+height: 30px;
+left: 20px;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color:white;
+
+}
+.one2{
+    position: absolute;
+width: 195px;
+height: 30px;
+left: 200px;
+top: 0px;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 26px;
+letter-spacing: 0.05em;
+color:white;
+}
+.one3{
+    position: absolute;
+width: 60px;
+height: 30px;
+left: 450px;
+font-style: normal;
+font-weight: normal;
+font-size:16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+.one4{
+    position: absolute;
+width: 47px;
+height: 44px;
+top:25px;
+left: 600px;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+
+color: #FB0606;
+
+}
+
+    .one5{
+        position: absolute;
+    width: 47px;
+    height: 44px;
+    top:25px;
+    left: 550px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    
+    color:whitesmoke;
+    
+    }
+
+.two{
+    color:white;
+    position: absolute;
+    top:60px;
+width: 100%;
+height: 47px; 
+}
+.two1{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    
+    color: #E5E5E5;
+}
+.two2{
+    position: absolute;
+    width: 195px;
+    height: 30px;
+    left: 200px;
+    top: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color:white;
+}
+.two3{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 450px;
+    font-style: normal;
+    font-weight: normal;
+    font-size:16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+}
+.two4{
+    position: absolute;
+    width: 47px;
+    height: 44px;
+    top:25px;
+    left: 600px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    
+    color: #FB0606;
+}
+.three{
+    color:white;
+    position: absolute;
+    top:120px;
+width: 100%;
+height: 47px; 
+}
+.three1{
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    left: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    
+    color: #E5E5E5;
+}
+.three2{
+    position: absolute;
+    width: 195px;
+    height: 30px;
+    left: 200px;
+    top: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color:white;
+}
+.three3{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    left: 450px;
+    font-style: normal;
+    font-weight: normal;
+    font-size:16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF; 
+}
+.three4{
+    position: absolute;
+    width: 47px;
+    height: 44px;
+    top:25px;
+    left: 600px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    
+    color: #FB0606;
+}
+.four{
+    color:white;
+    position: absolute;
+    top:180px;
+width: 100%;
+height: 47px;   
+}
+.five{
+    color:white;
+    position: absolute;
+    top:240px;
+width: 100%;
+height: 47px;    
+}
+.six{
+    color:white;
+    position: absolute;
+    top:300px;
+width: 100%;
+height: 47px;    
+}
+.championship{
+    position: absolute;
+    width:50%;
+    top:280px;
+height: 53px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+.championship2{
+    position: absolute;
+    width:50%;
+    top:220px;
+height: 53px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+.branch1{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    top: 330px;
+    
+    background-color: #2D2D2D;
+}
+.branches{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    top: 280px;
+    
+    background-color: #2D2D2D;
+}
+.ligue1{
+    position:absolute;
+    width:50%;
+    top:490px;
+height: 53px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+.terms{
+    position:fixed;
+    width:50%;
+    top:620px;
+height: 60px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.05em;
+background-color:gray;
+color: black; 
+}
+.branch2{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top: 550px;
+    
+    background-color: #2D2D2D;
+}
+.ligue2{
+    position: absolute;
+    width:50%;
+    top:410px;
+height: 53px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+.branch3{
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    top: 460px;
+    
+    background-color: #2D2D2D;
+}
+.ligue3{
+    position: absolute;
+    width:50%;
+    top:630px;
+height: 53px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF; 
+}
+.branch4{
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    top:680px;
+    
+    background-color: #2D2D2D;
+}
+.ligue4{
+    position: absolute;
+    width:50%;
+    top:850px;
+height: 53px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF; 
+}
+.branch5{
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    top:900px;
+    
+    background-color: #2D2D2D;
+}
+.ligue5{
+    position: absolute;
+    width:50%;
+    top:1000px;
+height: 53px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF; 
+}
+.branch6{
+    position: absolute;
+    width: 100%;
+    height:320px;
+    top:1050px;
+    
+    background-color: #2D2D2D;
+}
